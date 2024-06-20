@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #7B61FF;
+}
+
+.animation {
+  animation: youhou .3s ease ;
+}
+
+@keyframes youhou {
+  0%{
+    transform: translateY(0) rotate(0);
+  }
+  50% {
+    transform: translateY(-5px) rotate(145deg);
+  }
+  100% {
+    transform: translateY(0) rotate(145deg);
+  }
+}
